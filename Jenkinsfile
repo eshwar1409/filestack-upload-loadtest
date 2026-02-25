@@ -5,7 +5,7 @@ pipeline {
         BASE_URL = 'https://www.stage.filestackapi.com'
         TARGET_REQUESTS = '10'
         EXPECTED_EVENTS = '10'
-        API_KEY = credentials('Arx0y8ndqSbmeHBrWrJ61z')
+        API_KEY = credentials('filestack-api-key')
     }
 
     stages {
